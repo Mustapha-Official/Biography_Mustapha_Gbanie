@@ -1,4 +1,4 @@
-# 📌 Mustapha Gbanie — Official Autobiography Website
+# 📌 Mustapha Gbanie — Official Biography Website
 
 🌿 **My Life. My Journey. My Story.**
 *A digital record of where I started, the challenges I faced, the lessons I learned, and the dreams I am still fighting to achieve.*
