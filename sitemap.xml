@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- ✅ HOME PAGE -->
+  <url>
+    <loc>https://mustapha-official.github.io/Autobiography_Mustapha_Gbanie/</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- ✅ MY FULL STORY PAGE -->
+  <url>
+    <loc>https://mustapha-official.github.io/Autobiography_Mustapha_Gbanie/story.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ✅ ABOUT SECTION -->
+  <url>
+    <loc>https://mustapha-official.github.io/Autobiography_Mustapha_Gbanie/#about</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ✅ INSPIRATION NOTES SECTION -->
+  <url>
+    <loc>https://mustapha-official.github.io/Autobiography_Mustapha_Gbanie/#inspiration</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ✅ PEOPLE ASK / FAQ SECTION -->
+  <url>
+    <loc>https://mustapha-official.github.io/Autobiography_Mustapha_Gbanie/#faq</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ✅ CONTACT SECTION -->
+  <url>
+    <loc>https://mustapha-official.github.io/Autobiography_Mustapha_Gbanie/#contact</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>

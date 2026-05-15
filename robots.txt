@@ -1,0 +1,29 @@
+# ==========================================
+# MUSTAPHA GBANIE - OFFICIAL BIOGRAPHY
+# ROBOTS.TXT — SEO INSTRUCTIONS
+# Live URL: https://mustapha-official.github.io/Autobiography_Mustapha_Gbanie/
+# ==========================================
+
+User-agent: *
+Allow: /
+
+# Block unnecessary / private files & folders
+Disallow: /images/temp/
+Disallow: /private/
+Disallow: /draft/
+Disallow: /*.php$
+Disallow: /*?*
+
+# ✅ CORRECT SITEMAP LINK FOR GOOGLE
+Sitemap: https://mustapha-official.github.io/Autobiography_Mustapha_Gbanie/sitemap.xml
+
+# Googlebot Special Rules
+User-agent: Googlebot
+Allow: /
+Max-image-preview:large
+Max-snippet:-1
+Max-video-preview:-1
+
+# Bing / Microsoftbot Rules
+User-agent: Bingbot
+Allow: /
