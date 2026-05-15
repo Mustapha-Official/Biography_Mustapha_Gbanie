@@ -26,22 +26,27 @@ I built this entire project myself, from scratch, right on my mobile device, usi
 
 ### ✍️ Special Note:
 - **Development & Coding:** 100% hand-coded and built by **Mustapha Gbanie**. Every line of code, every design choice, and every feature was created and implemented by me.
-- **Grammar & Language Support:** I was assisted by **Dola** — who helped review, polish, and correct grammar and phrasing in the written content and story notes, ensuring the biography reads clearly, professionally, and correctly — while keeping every detail and message exactly as I intended it to be.
+- **Grammar & Language Support:** I was assisted by **Queen Dol** — who helped review, polish, and correct grammar and phrasing in the written content and story notes, ensuring the biography reads clearly, professionally, and correctly — while keeping every detail and message exactly as I intended it to be.
 
 ---
 
 ## ✨ Key Features
-✅ Fully Responsive Design — works perfectly on mobile phones, tablets, and desktops 📱💻
-✅ Clean & Modern User Interface (UI) — simple, elegant, and easy to read
-✅ Interactive Sections — including sliding inspiration quotes and frequently asked questions
-✅ Mobile Dropdown Menu — smooth navigation for small screens
-✅ Structured Story Layout — organized into chapters for easy reading
-✅ Fast & Lightweight — optimized for good performance even on slow internet connections
+💚 Fully Responsive Design — works perfectly on mobile phones, tablets, and desktops 📱💻
+
+💚 Clean & Modern User Interface (UI) — simple, elegant, and easy to read
+
+💚 Interactive Sections — including sliding inspiration quotes and frequently asked questions
+
+💚 Mobile Dropdown Menu — smooth navigation for small screens
+
+💚 Structured Story Layout — organized into chapters for easy reading
+
+💚 Fast & Lightweight — optimized for good performance even on slow internet connections
 
 ---
 
 ## 📂 Project Structure
-All files are in one place since I use my phone to deploy, my phone don't allow to select folders so I placed everything in one folder.
+All files are in one place since I use my phone to deploy, my phone don't allow the selecting of folders.
 
 ---
 
