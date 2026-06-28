@@ -222,7 +222,6 @@ p {
     padding: 20px;
     flex-direction: column;
     gap: 15px;
-    border-top: 1px solid var(--border);
     box-shadow: var(--shadow);
     display: none;
 }
@@ -234,7 +233,7 @@ p {
 .mobile-menu a {
     padding: 10px 0;
     font-weight: 500;
-    border-bottom: 1px solid #f1f5f9;
+    border-bottom: 2px solid #f1f5f9;
     color: var(--dark);
 }
 
@@ -252,7 +251,7 @@ p {
 .hero-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 50px;
+    gap: 30px;
     align-items: center;
 }
 
@@ -312,6 +311,8 @@ p {
 
 .hero-img img {
     border-radius: 12px;
+    width: 300px;
+    height: auto;
 }
 
 /* ----------  ABOUT SECTION ---------- */
@@ -327,6 +328,8 @@ p {
 }
 
 .about-img img {
+    width: 300px;
+    height: auto;
     border-radius: 12px;
     border-right: 8px solid var(--primary);
     border-bottom: 8px solid var(--primary);
@@ -438,16 +441,16 @@ p {
 ========================================== */
 
 .inspiration {
-    background-color: var(--primary-pale); /* ✅ Your pale green/blue */
+    background-color: var(--primary-pale); 
     padding: 80px 0;
-    overflow: hidden; /* ✅ STOPS STRETCHING */
+    overflow: hidden;
 }
 
 .insp-grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 50px;
-    align-items: center; /* ✅ Makes both sides equal height */
+    align-items: center;
 }
 
 .sub-heading {
@@ -471,14 +474,14 @@ p {
 
 /* ---------- INSPIRATION & FAQ SECTION — FINAL VERSION ---------- */
 .inspiration {
-    background-color: var(--primary-pale); /* ✅ SECTION COLOR: Pale version */
+    background-color: var(--primary-pale);
     padding: clamp(50px, 8vw, 80px) 0;
 }
 
 .insp-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* ✅ DESKTOP: 2 EQUAL COLUMNS */
-    gap: clamp(30px, 5vw, 50px); /* Space between left and right */
+    grid-template-columns: repeat(2, 1fr);
+    gap: clamp(30px, 5vw, 50px); 
     align-items: start;
 }
 
@@ -500,7 +503,7 @@ p {
     left: 0;
     width: 40px;
     height: 3px;
-    background-color: var(--primary); /* ✅ ACCENT: Brand color */
+    background-color: var(--primary); 
     border-radius: 2px;
 }
 
@@ -508,21 +511,21 @@ p {
 .notes-container {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Space between each note */
+    gap: 20px;
 }
 
 .note-card {
-    background-color: var(--white); /* ✅ BOX COLOR: White */
+    background-color: var(--white); 
     padding: clamp(20px, 5vw, 30px);
     border-radius: 10px;
     border: 1px solid var(--border);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04); /* Soft shadow */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04); 
     position: relative;
 }
 
 .quote-icon {
     font-size: 3.5rem;
-    color: rgba(22, 101, 52, 0.12); /* Faint brand color */
+    color: rgba(22, 101, 52, 0.12); 
     font-weight: bold;
     position: absolute;
     top: 10px;
@@ -545,7 +548,7 @@ p {
     display: block;
     text-align: right;
     font-weight: 600;
-    color: var(--primary); /* ✅ ACCENT TEXT: Brand color */
+    color: var(--primary); 
     font-size: var(--fs-small);
 }
 
@@ -553,11 +556,11 @@ p {
 .faq-container {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Space between each question */
+    gap: 20px;
 }
 
 .faq-card {
-    background-color: var(--white); /* ✅ BOX COLOR: White */
+    background-color: var(--white); 
     padding: clamp(20px, 5vw, 30px);
     border-radius: 10px;
     border: 1px solid var(--border);
@@ -565,7 +568,7 @@ p {
 }
 
 .faq-card h4 {
-    color: var(--primary); /* ✅ HEADING: Brand color */
+    color: var(--primary); 
     font-size: var(--fs-h4);
     margin-bottom: 10px;
 }
@@ -577,10 +580,10 @@ p {
     font-size: var(--fs-body);
 }
 
-/* 📱 MOBILE RESPONSIVE — ✅ 1 COLUMN ONLY */
+/* 📱 MOBILE RESPONSIVE — 1 COLUMN ONLY */
 @media (max-width: 768px) {
     .insp-grid {
-        grid-template-columns: 1fr; /* ✅ STACKS INTO ONE COLUMN */
+        grid-template-columns: 1fr; 
         gap: 30px;
     }
 }
@@ -766,6 +769,12 @@ p {
     .hero-tabs {
         justify-content: center;
     }
+
+   .hero-img img,
+   .about-img img{
+       width: 260px;
+      over-flow: hidden;
+   }
 
     .tab-item {
         flex: 1 1 120px;
