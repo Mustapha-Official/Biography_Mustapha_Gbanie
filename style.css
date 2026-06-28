@@ -23,19 +23,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: sans-serif;
 }
 
 html {
     scroll-behavior: smooth;
-    font-size: 16px;
 }
 
 body {
     color: var(--dark);
     background: var(--white);
     line-height: 1.6;
-    overflow-x: hidden;
 }
 
 a {
@@ -216,8 +214,8 @@ p {
 .mobile-menu {
     position: absolute;
     top: 100%;
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: 60%;
     background: var(--white);
     padding: 20px;
     flex-direction: column;
@@ -244,7 +242,7 @@ p {
 
 /* ----------  HERO SECTION ---------- */
 .hero {
-    padding-top: 140px;
+    padding: 140px 20px;
     background: linear-gradient(135deg, #f8fafc 0%, #f0fdf4 100%);
 }
 
@@ -323,7 +321,7 @@ p {
 .about-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    gap: 40px;
     align-items: center;
 }
 
@@ -730,7 +728,7 @@ p {
     }
 
     .timeline {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         gap: 30px;
     }
 
@@ -747,7 +745,7 @@ p {
 /* ---------- MOBILE: 600px and below ---------- */
 @media (max-width: 600px) {
     section {
-        padding: 50px 0;
+        padding: 50px 20px;
     }
 
     .logo-text h3 {
@@ -777,7 +775,7 @@ p {
    }
 
     .tab-item {
-        flex: 1 1 120px;
+        flex-direction: column;
         justify-content: center;
     }
 
@@ -785,8 +783,17 @@ p {
         font-size: 1.3rem;
     }
 
-   .hero-grid, .about-grid, .insp-grid, .contact-grid {
+   .hero-grid,
+   .about-grid,
+   .insp-grid,
+   .contact-grid,
+   .about-features{
         grid-template-columns: 1fr;
         gap: 30px;
-    }
+   }
+
+   . social-links{
+      flex-direction: column;
+   }
 }
+
