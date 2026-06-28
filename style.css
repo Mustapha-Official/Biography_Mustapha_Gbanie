@@ -449,7 +449,7 @@ p {
 .insp-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 50px;
+    gap: 30px;
     align-items: center;
 }
 
@@ -507,7 +507,7 @@ p {
     border-radius: 2px;
 }
 
-/* 📝 INSPIRATION NOTE CARDS */
+/* INSPIRATION NOTE CARDS */
 .notes-container {
     display: flex;
     flex-direction: column;
@@ -516,7 +516,7 @@ p {
 
 .note-card {
     background-color: var(--white); 
-    padding: clamp(20px, 5vw, 30px);
+    padding: clamp(10px, 5vw, 30px);
     border-radius: 10px;
     border: 1px solid var(--border);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04); 
@@ -744,8 +744,8 @@ p {
     }
 }
 
-/* ---------- MOBILE: 576px and below ---------- */
-@media (max-width: 576px) {
+/* ---------- MOBILE: 600px and below ---------- */
+@media (max-width: 600px) {
     section {
         padding: 50px 0;
     }
@@ -772,7 +772,7 @@ p {
 
    .hero-img img,
    .about-img img{
-       width: 260px;
+       width: 300px;
       over-flow: hidden;
    }
 
@@ -783,5 +783,10 @@ p {
 
     .story-chapter h2 {
         font-size: 1.3rem;
+    }
+
+   .hero-grid, .about-grid, .insp-grid, .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
     }
 }
